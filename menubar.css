@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: arial;
+
+}
+nav{
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+    position: sticky;
+    top: 0;
+    background-color: #FAFAFA;
+    opacity: 0.9;
+}
+label.logo12{
+    font-size: 20px;
+    line-height: 55px;
+    padding: 0 20px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 15px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 55px;
+    margin: 0 5px;
+}
+nav ul li a{
+    font-size: 15px;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+a.active,a:hover{
+    background: lightgray;
+    transition: .5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: gray;
+    float: right;
+    line-height: 55px;
+    margin-right: 30px;
+    cursor: pointer ;
+    display: none;
+}
+#check{
+    display: none;
+
+}
+@media (max-width: 952px){
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ui li a{
+        font-size: 16px;
+    }
+}
+@media (max-width: 858px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: lightblue;
+        top: 60px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    a:hover, a.active{
+        background: none;
+        color: lightcoral;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+}
+
+/**************************profile******************************/
+/********** Home CSS**********/
+html, body{
+    margin: 0;
+    padding: 0;
+}
+.maincontainer{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.line{
+    margin-top: 20px;
+    font-family: Arial;
+    text-align: center;
+}
+.imgheight{
+    margin-top: 60px;
+}
+.pic{
+    height: 200px ;
+    width: 200px;
+    border-radius: 100px;
+    border-color: #f4f4f4;
+    border-style: solid;
+    border-width: 6px;
+}
+.thrive{
+    margin-top: 20px;
+    text-align: center;
+}
+.code{
+    margin: 60px 0;
+    text-align: center;
+}
+.footer{
+    height: 100px;
+    text-align: center;
+    font-size: 20px;
+}
+.fa-bars{
+    font-size: 26px;
+    color: gray;
+}
+.fa-message{
+    margin-left: 6px;
+    font-size: 20px;
+    color: gray;
+}
+.changing{
+    font-size: 24px;
+}
+.changing12{
+    font-size: 20px;
+}
+.myname{
+    text-align: center;
+    font-weight: bold;
+    font-family: serif;
+    
+}
+.footersection{
+    position: relative;
+    min-height: 20vh;
+        padding: 0 20px;
+        display: flex;
+        justify-content: center;
+        background-size: cover;
+}

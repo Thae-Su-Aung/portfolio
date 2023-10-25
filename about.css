@@ -1,0 +1,176 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+/********** About CSS**********/
+body{
+    background-color: lightblue;
+}
+.img{
+    height: auto;
+    width: 430px;
+ }
+ .paratext{
+    font-family: 'Times New Roman';
+    font-size: 18px;
+ }
+ 
+ .text{
+ width: 60%;
+ letter-spacing: 1px;
+ }
+ .tulink{
+     text-decoration: none;
+ }
+ .main{
+     width: 1130px;
+     margin: 0 auto;
+     max-width: 95%;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     background-color: #f4f4f4;
+     border-color: aqua;
+     border-style: groove;
+     border-width: 3px;
+     margin-top: 100px;
+ }
+ .text h2{
+     font-size: 76px;
+     text-transform: capitalize;
+     margin-bottom: 20px;
+ }
+ .text h5{
+     letter-spacing: 2px;
+     font-size: 22px;
+     margin-bottom: 25px;
+     text-transform: capitalize;
+ }
+ /********** Hobby CSS**********/
+ .hobbygp{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     height: 320px;
+ }
+ .hobbyh2{
+    font-family: serif;
+    font-size: 30px;
+ }
+ .op{
+    text-align: center;
+   margin-top: 80px;
+   margin-bottom: 60px;
+}
+
+.card{
+    height: 180px;
+    width: 300px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.cr1{
+    background-color: gray;
+}
+.cr2{
+    background-color: lightpink;
+}
+.cr3{
+    background-color: lightsalmon;
+}
+.secsectioncard{
+    padding: 20px;
+}
+.divthinline{
+    height: 1px;
+    background-color: black;
+    opacity:0.3 ;
+}
+.updivline{
+    padding: 10px 20px;
+    font-size: 19px;
+}
+.sizechange{
+    font-size: 17px;
+}
+.music{
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 23px;
+}
+.beauty{
+    margin-left: 34px;
+}
+/*********************************************************/
+.contactbtn{
+    height: 60px;
+    width: 100px;
+    font-size: 20px;
+    border-radius: 30px;
+    margin: 0 20px;
+}
+.conbtncontainer{
+    display: flex;
+    justify-content: center;
+    height: 140px;
+}
+.firstbtngp{
+    display: flex;
+}
+.btn1{
+    background-color: lightblue;
+}
+.btn3{
+    background-color: lightgrey;
+}
+.btn6{
+    background-color: lightyellow;
+}
+@media (max-width: 656px)
+{
+    .conbtncontainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .belowgp{
+        position: relative;
+        min-height: 30vh;
+        padding: 0 20px;
+        display: flex;
+        justify-content: center;
+        background-size: cover;
+    }
+    .contactbtn{
+        margin: 20px;
+    }
+}
+/*********************************************************/
+@media (max-width: 970px){
+    .hobbygp{
+        flex-direction: column;
+        align-items: center;
+        height: 700px;
+        margin-bottom: 60px;
+    }
+    .hobbyadjust{
+        position: relative;
+        min-height: 30vh;
+            padding: 0 10px;
+            display: flex;
+            justify-content: center;
+            background-size: cover;
+    }
+    .main{
+        flex-wrap: wrap;
+        height: 1060px;
+    }
+    .text{
+        width: 100%;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+    .beauty{
+        margin-left: 0;
+    }
+}
