@@ -64,11 +64,13 @@ body{
 }
 
 .card{
-    height: 300px;
+    height: 200px;
     width: 300px;
     border-radius: 5px;
     font-size: 16px;
 }
+@media (max-width: 437px){
+    .cr3 { height: 300px;}}
 .cr1{
     background-color: gray;
 }
