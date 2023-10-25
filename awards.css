@@ -97,6 +97,9 @@ a.active,a:hover{
     }
 }
 /********** Awards CSS**********/
+@media (max-width: 512px){
+    .adjusting { 
+        letter-spacing: -0.8px;}}
 .eduhead{
     font-size: 30px;
  }
