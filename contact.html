@@ -38,23 +38,25 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
                 </div>
             </div>
         </div>
-        <div class="contactform">
-        <form>
+       <div class="contactform">
+        <form action="https://formspree.io/f/xgejqwvz"
+        method="POST">
             <h2>Send Message</h2>
             <div class="inputbox">
-            <input type="text" name="" required="required">
-            <span>Full Name</span>
+            <input type="text" name="Usernme" required="required"/>
+            <label>Full Name</label>
             </div>
             <div class="inputbox">
-                <input type="text" name="" required="required">
-                <span>Email</span>
+                <input type="text" name="Email" required="required">
+                <label>Email</label>
                 </div>
                 <div class="inputbox">
-                    <textarea required="required"></textarea>
-                    <span>Type your Message...</span>
+                    <textarea name="Message" required="required"></textarea>
+                    <label>Type your Message...</label>
                     </div>
                     <div class="inputbox">
-                        <input type="submit" name="" value="Send">
+                     <button class="btnthae">Send</button>
+        </form>
         </form>
         </div>
     </div>
