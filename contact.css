@@ -2,6 +2,8 @@ html, body{
     margin: 0;
     padding: 0;
 }
+/*****************************************************************/
+
 .contactbtn{
     height: 60px;
     width: 100px;
@@ -11,11 +13,10 @@ html, body{
 }
 .conbtncontainer{
     display: flex;
+    align-items: center;
     justify-content: center;
     height: 140px;
-}
-.firstbtngp{
-    display: flex;
+    margin-bottom: 60px;
 }
 .btn1{
     background-color: lightblue;
@@ -23,8 +24,23 @@ html, body{
 .btn3{
     background-color: lightgrey;
 }
-.btn6{
+.btn4{
     background-color: lightyellow;
+}
+.btn5{
+    background-color: lightgreen;
+}
+@media (max-width: 727px)
+{
+    .conbtncontainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 60px;
+    }
+    .contactbtn{
+        margin: 20px;
+    }
 }
 /****************************************/
 *{
@@ -169,24 +185,3 @@ display: flex;
 body{
     background-color: lightgreen;
 }
-@media (max-width: 656px)
-{
-    .conbtncontainer{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .belowgp{
-        position: relative;
-        min-height: 30vh;
-        padding: 10px;
-        display: flex;
-        justify-content: center;
-        background-size: cover;
-    }
-    .contactbtn{
-        margin: 20px;
-    }
-}
-    
-
