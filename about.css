@@ -104,6 +104,8 @@ body{
     margin-left: 34px;
 }
 /*********************************************************/
+/*****************************************************************/
+
 .contactbtn{
     height: 60px;
     width: 100px;
@@ -113,11 +115,10 @@ body{
 }
 .conbtncontainer{
     display: flex;
+    align-items: center;
     justify-content: center;
     height: 140px;
-}
-.firstbtngp{
-    display: flex;
+    margin-bottom: 60px;
 }
 .btn1{
     background-color: lightblue;
@@ -125,23 +126,19 @@ body{
 .btn3{
     background-color: lightgrey;
 }
-.btn6{
+.btn4{
     background-color: lightyellow;
 }
-@media (max-width: 656px)
+.btn5{
+    background-color: lightgreen;
+}
+@media (max-width: 727px)
 {
     .conbtncontainer{
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
-    .belowgp{
-        position: relative;
-        min-height: 30vh;
-        padding: 0 20px;
-        display: flex;
-        justify-content: center;
-        background-size: cover;
+        margin-top: 30px;
     }
     .contactbtn{
         margin: 20px;
