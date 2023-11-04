@@ -101,7 +101,7 @@ h1{
   letter-spacing: 0.3px;
   pointer-events: none;
   transition: transform 0.25s ease;
-  background: linear-gradient(135deg, #d887cb 0%, #ae9cff 100%);
+  background: linear-gradient(135deg,  #f008c9 0%, #3509f8 100%);
 }
 .clear-btn.active{
   opacity: 0.9;
