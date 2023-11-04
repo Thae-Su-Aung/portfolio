@@ -34,12 +34,14 @@ body{
   background: lightgreen;
 }
 .wrapper{
-  width: 400px;
+  width: 370px;
   border-radius: 7px;
   background: #fff;
   padding: 25px 28px 45px;
   box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.05);
 }
+.aligntwo{
+    display: flex;}
 .wrapper header{
   font-size: 28px;
   font-weight: 500;
