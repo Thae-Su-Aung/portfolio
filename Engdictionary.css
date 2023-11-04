@@ -196,7 +196,7 @@ ul .content::-webkit-scrollbar{
 }
 @media (max-width: 499px){
     .wrapper{
-        width: 350px;}}
+        width: 340px;}}
 @media (max-width: 846px)
 {
     .conbtncontainer{
