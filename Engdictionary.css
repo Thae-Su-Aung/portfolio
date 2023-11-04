@@ -34,7 +34,7 @@ body{
   background: lightgreen;
 }
 .wrapper{
-  width: 370px;
+  width: 420px;
   border-radius: 7px;
   background: #fff;
   padding: 25px 28px 45px;
@@ -194,6 +194,9 @@ ul .content::-webkit-scrollbar{
 .btn5{
     background-color: lightgreen;
 }
+@media (max-width: 499px){
+    .wrapper{
+        width: 350px;}}
 @media (max-width: 846px)
 {
     .conbtncontainer{
